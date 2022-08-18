@@ -1,0 +1,148 @@
+:root {
+    --branding-color: #ffffff;
+    --bgrnd-color: #202020;
+    --buttons-font-family: 'Montserrat', sans-serif;;
+    --default-font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    background-color: var(--bgrnd-color);
+    color: var(--branding-color);
+    font-family: var(--default-font-family);
+}
+
+.brand-name {
+    font-family: var(--buttons-font-family);
+    font-size: 24px;
+    margin: 8px 40px 0px;
+    padding: 5px;
+}
+
+nav {
+    padding: 30px 20px;
+    background-color: var(--bgrnd-color);
+}
+
+nav ul {
+    padding: 0;
+    margin: 20px;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 19px;
+    margin: 0px 20px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--branding-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.title-container {
+    background-image: url(/img/bg.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 940px;
+    overflow: hidden;
+}
+
+.hero-name {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    margin-top: -56px;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-weight: 700;
+    /* font-size: 72px; */
+    line-height: 84px;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.start-btn {
+    border-radius: 50px;
+    font-family: var(--buttons-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    margin-top: 18px;
+}
+
+.gallery-container {
+    background-color: var(--bgrnd-color);
+    padding: 60px 4px 40px;
+}
+
+.picthumb {
+    width: 100%;
+    height: 100%;
+    padding: 20px 4px;
+    /* transition: all 100ms ease-in-out; */
+}
+
+/* .picthumb:hover {
+    transform: scale(1.5);
+} */
+
+.social-links a {
+    color: var(--branding-color);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.copyrights {
+    font-size: 12px;
+}
+
+.name-footer {
+    color: var(--branding-color);
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-links a:hover {
+    color:blue;
+}
+
+.github {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--branding-color);;
+    padding-top: 20px;
+}
+
+
+
+
+
