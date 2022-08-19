@@ -132,7 +132,7 @@ nav li.active a {
 }
 
 .social-links a:hover {
-    color:blue;
+    color: #F65282;
 }
 
 .github {
@@ -142,6 +142,40 @@ nav li.active a {
     padding-top: 20px;
 }
 
+.about-author-title,
+.camera-title {
+    color:#F65282;
+    font-size: 18px;
+}
+
+.about-name {
+    color: var(--branding-color);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.about-author-block {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.camera-info {
+    background-color: #2D2727;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 70%;
+}
+
+/* @media all and (max-width: 540px) {
+    .photoartist {
+        width: 100%;
+    }
+} */
 
 
 
