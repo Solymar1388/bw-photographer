@@ -9,6 +9,7 @@ body {
     background-color: var(--bgrnd-color);
     color: var(--branding-color);
     font-family: var(--default-font-family);
+    margin: 0 auto;
 }
 
 .brand-name {
@@ -29,18 +30,8 @@ nav ul {
 }
 
 nav li {
-    display: inline;
-    list-style: none;
     line-height: 19px;
     margin: 0px 20px;
-}
-
-nav a {
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-    color: var(--branding-color);
-    transition: all 100ms ease-in-out;
 }
 
 nav a:hover,
@@ -70,7 +61,6 @@ nav li.active a {
 
 .heading {
     font-weight: 700;
-    /* font-size: 72px; */
     line-height: 84px;
     letter-spacing: 8px;
     margin-top: 20px;
@@ -104,23 +94,6 @@ nav li.active a {
     width: 100%;
     height: 100%;
     padding: 20px 4px;
-    /* transition: all 100ms ease-in-out; */
-}
-
-/* .picthumb:hover {
-    transform: scale(1.5);
-} */
-
-.social-links a {
-    color: var(--branding-color);
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    padding: 0 10px;
-}
-
-.copyrights {
-    font-size: 12px;
 }
 
 .name-footer {
@@ -131,8 +104,20 @@ nav li.active a {
     font-weight: 700;
 }
 
+.social-links a {
+    color: var(--branding-color);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
 .social-links a:hover {
     color: #F65282;
+}
+
+.copyrights {
+    font-size: 12px;
 }
 
 .github {
@@ -141,6 +126,8 @@ nav li.active a {
     color: var(--branding-color);;
     padding-top: 20px;
 }
+
+/* ABOUT ME PAGE */
 
 .about-author-title,
 .camera-title {
@@ -161,6 +148,7 @@ nav li.active a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    text-align: justify;
 }
 
 .camera-info {
@@ -171,11 +159,6 @@ nav li.active a {
     max-width: 70%;
 }
 
-/* @media all and (max-width: 540px) {
-    .photoartist {
-        width: 100%;
-    }
-} */
 
 
 
