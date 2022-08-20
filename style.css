@@ -85,17 +85,6 @@ nav li.active a {
     margin-top: 18px;
 }
 
-.gallery-container {
-    background-color: var(--bgrnd-color);
-    padding: 60px 4px 40px;
-}
-
-.picthumb {
-    width: 100%;
-    height: 100%;
-    padding: 20px 4px;
-}
-
 .name-footer {
     color: var(--branding-color);
     font-size: 24px;
@@ -157,6 +146,17 @@ nav li.active a {
     font-size: 18px;
     line-height: 30px;
     max-width: 70%;
+}
+
+/* GALLERY PAGE */
+
+.gallery-title {
+    color: var(--branding-color);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 
