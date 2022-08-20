@@ -159,7 +159,34 @@ nav li.active a {
     text-transform: uppercase;
 }
 
+/* CONTACT ME PAGE */
+
+.contact-title {
+    color: var(--branding-color);
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 
 
+.contact-info-title {
+    color: #F65282;
+    font-size: 24px;
+}
+
+.contact-info {
+    color: var(--branding-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-info:hover {
+    color: #F65282;
+}
 
 
